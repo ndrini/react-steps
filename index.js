@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
 
+console.log("accipicchia!")
 
-
+const data = require('./steps.json');
+console.log(data);
 
 function AddForm() {
   const [sum, setSum] = useState(0);

@@ -1,0 +1,50 @@
+{
+   "steps": [
+     {
+       "code": "0",
+       "title": "Star",
+       "description": "It's your choice, baby",
+       "choices": [
+         {
+           "code": "1",
+           "description": "go left"
+         },
+         {
+           "code": "2",
+           "description": "go right"
+         }
+       ]
+     },
+     {
+       "code": "1",
+       "title": "At left position",
+       "description": "From left",
+       "choices": [
+         {
+           "code": "1.1",
+           "description": "go left"
+         },
+         {
+           "code": "1.2",
+           "description": "go right"
+         }
+       ]
+     },
+     {
+       "code": "2",
+       "title": "At right position",
+       "description": "From right",
+       "choices": [
+         {
+           "code": "2.1",
+           "description": "go left"
+         },
+         {
+           "code": "2.2",
+           "description": "go right"
+         }
+       ]
+     }
+   ]
+ }
+ 

@@ -1,36 +1,66 @@
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
-import './style.css';
-
-console.log("accipicchia!")
-
-const data = require('./steps.json');
-console.log(data);
-
-function AddForm() {
-  const [sum, setSum] = useState(0);
-  const [num, setNum] = useState(0);
-
-  function handleChange(e) {
-    setNum(e.target.value);
+[
+  {
+    "code": "0",
+    "title": "Star",
+    "description": "It's your choice, baby",
+    "choices": [
+      {
+        "code": "1",
+        "description": "go left"
+      },
+      {
+        "code": "2",
+        "description": "keep the center"
+      },
+      {
+        "code": "3",
+        "description": "go right"
+      }
+    ]
+  },
+  {
+    "code": "1",
+    "title": "At left position",
+    "description": "From left",
+    "choices": [
+      {
+        "code": "1.1",
+        "description": "go left"
+      },
+      {
+        "code": "1.2",
+        "description": "go right"
+      }
+    ]
+  },
+  {
+    "code": "2",
+    "title": "At center",
+    "description": "From left",
+    "choices": [
+      {
+        "code": "2.1",
+        "description": "go left"
+      },
+      {
+        "code": "2.2",
+        "description": "go right"
+      }
+    ]
+  },
+  {
+    "code": "3",
+    "title": "At right position",
+    "description": "From right",
+    "choices": [
+      {
+        "code": "3.1",
+        "description": "go left"
+      },
+      {
+        "code": "3.2",
+        "description": "go right"
+      }
+    ]
   }
-
-  function handleSubmit(e) {
-    setSum(sum + Number(num));
-    e.preventDefault();
-  }
-
-  return <form onSubmit={handleSubmit}>
-  <input type="number" value={num} onChange={handleChange} />
-  <input type="submit" value="Add" />
-  <p> Sum is {sum} </p>
-  </form>;
-}
-
-const el = <AddForm />; 
-ReactDOM.render(
-  el, 
-  document.getElementById('root')
-);
-
-
+]

@@ -30,7 +30,15 @@ function Step() {
 
   function ChoiceButton(props) {
     return (
-      <button className="item" onClick={() => handleChoice(props.code)}>
+      <button className="button_green" onClick={() => handleChoice(props.code)}>
+        {props.code} {props.description}
+      </button>
+    );
+  }
+
+  function BackButton(props) {
+    return (
+      <button className="button_blue" onClick={() => handleChoice(props.code)}>
         {props.code} {props.description}
       </button>
     );
@@ -47,6 +55,8 @@ function Step() {
           code={singleChoice.code}
         />
       ))}
+
+      <BackButton description="start again" code="0" />
     </div>
   );
 }

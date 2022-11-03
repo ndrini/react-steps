@@ -31,7 +31,7 @@ function Step() {
   function ChoiceButton(props) {
     return (
       <button className="button_green" onClick={() => handleChoice(props.code)}>
-        {props.code} {props.description}
+        {props.code} {props.text_button}
       </button>
     );
   }
@@ -39,7 +39,7 @@ function Step() {
   function BackButton(props) {
     return (
       <button className="button_blue" onClick={() => handleChoice(props.code)}>
-        {props.code} {props.description}
+        {props.code} {props.text_button}
       </button>
     );
   }
@@ -47,17 +47,17 @@ function Step() {
   return (
     <div>
       <h1>Title: {step_obj.title}</h1>
+      <img src={step_obj.image_path} />
       <p>Description: {step_obj.description}</p>
 
       {step_obj.choices.map((singleChoice) => (
         <ChoiceButton
-          description={singleChoice.description}
+          text_button={singleChoice.text_button}
           code={singleChoice.code}
         />
       ))}
-   
-      {(step!=="0")?<BackButton description="start again" code="0" />:null}
-    
+
+      {step !== '0' ? <BackButton text_button="start again" code="0" /> : null}
     </div>
   );
 }

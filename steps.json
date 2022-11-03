@@ -2,19 +2,20 @@
   {
     "code": "0",
     "title": "Start",
+    "image_path": "https://i.picsum.photos/id/870/200/300.jpg?blur=5&hmac=kPFMui3gWYFu1G2PCNwqDRg7u1qfFGGZd0KM7fIzkb4",
     "description": "It's your choice, baby",
     "choices": [
       {
         "code": "1",
-        "description": "go left"
+        "text_button": "go left"
       },
       {
         "code": "2",
-        "description": "keep the center"
+        "text_button": "keep the center"
       },
       {
         "code": "3",
-        "description": "go right"
+        "text_button": "go right"
       }
     ]
   },
@@ -25,11 +26,11 @@
     "choices": [
       {
         "code": "1.1",
-        "description": "go left"
+        "text_button": "go left"
       },
       {
         "code": "1.2",
-        "description": "go right"
+        "text_button": "go right"
       }
     ]
   },
@@ -52,11 +53,11 @@
     "choices": [
       {
         "code": "2.1",
-        "description": "go left"
+        "text_button": "go left"
       },
       {
         "code": "2.2",
-        "description": "go right"
+        "text_button": "go right"
       }
     ]
   },
@@ -79,11 +80,11 @@
     "choices": [
       {
         "code": "3.1",
-        "description": "go left"
+        "text_button": "go left"
       },
       {
         "code": "3.2",
-        "description": "go right"
+        "text_button": "go right"
       }
     ]
   },

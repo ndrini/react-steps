@@ -55,8 +55,9 @@ function Step() {
           code={singleChoice.code}
         />
       ))}
-
-      <BackButton description="start again" code="0" />
+   
+      {(step!=="0")?<BackButton description="start again" code="0" />:null}
+    
     </div>
   );
 }

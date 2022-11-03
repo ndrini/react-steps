@@ -22,6 +22,7 @@
   {
     "code": "1",
     "title": "At left position",
+    "image_path": "https://i.picsum.photos/id/550/200/300.jpg?blur=5&hmac=jdbIJbctWUQQYmvZ1m7dT1-yPNfxCHfBaTJgMWjKwCo",
     "description": "From left",
     "choices": [
       {
@@ -37,6 +38,7 @@
   {
     "code": "1.1",
     "title": "At left position",
+    "image_path": "https://i.picsum.photos/id/158/200/300.jpg?blur=5&hmac=zBG__2c59b4wLtKodZRxUbgYQJXGHZx61S7ZES46nCw",
     "description": "From left (2º step)",
     "choices": []
   },
@@ -64,18 +66,21 @@
   {
     "code": "2.1",
     "title": "At left position",
+    "image_path": "",
     "description": "From left (2º step)",
     "choices": []
   },
   {
     "code": "2.2",
     "title": "At right position",
+    "image_path": "https://i.picsum.photos/id/818/200/300.jpg?blur=5&hmac=UG1OfFUFJu_KwC7e4y_bHu6qqrPe2iKc__1z8dS8Tow",
     "description": "From right (2º step)",
     "choices": []
   },
   {
     "code": "3",
     "title": "At right position",
+    "image_path": "",
     "description": "From right",
     "choices": [
       {
@@ -91,12 +96,14 @@
   {
     "code": "3.1",
     "title": "At left position",
+    "image_path": "",
     "description": "From left (2º step)",
     "choices": []
   },
   {
     "code": "3.2",
     "title": "At right position",
+    "image_path": "",
     "description": "From right (2º step)",
     "choices": []
   }

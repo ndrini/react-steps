@@ -1,0 +1,30 @@
+
+- code: 0
+    title: Start
+    image_path: https://i.picsum.photos/id/870/200/300.jpg?blur=5&hmac=kPFMui3gWYFu1G2PCNwqDRg7u1qfFGGZd0KM7fIzkb4
+    descriptio: It's your choice, baby
+    choices: 
+      -  code: 1
+       - ton: go left"
+      -  code: 2
+        text_button: keep the center"
+      - code: 3
+        text_button: go right
+-   code: 1
+    title: At left position,
+    image_path: https://i.picsum.photos/id/550/200/300.jpg?blur=5&hmac=jdbIJbctWUQQYmvZ1m7dT1-yPNfxCHfBaTJgMWjKwCo,
+    description: From left
+    choices: 
+      - code: 1.1
+        text_button: go left"
+      - code: 1.2
+        text_button: go right"
+-   code: 1.1
+    title: At left position,
+    image_path: https://i.picsum.photos/id/158/200/300.jpg?blur=5&hmac=zBG__2c59b4wLtKodZRxUbgYQJXGHZx61S7ZES46nCw,
+    description: From left (2º step),
+    choices: []
+-   code: 1.2
+    title: At right position,
+    description: From right (2º step)
+    choices: []

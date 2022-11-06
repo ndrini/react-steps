@@ -20,14 +20,14 @@
     ]
   },
   {
-    "code": "1",
+    "code": "C1",
     "title": "At left position",
     "image_path": "https://i.picsum.photos/id/550/200/300.jpg?blur=5&hmac=jdbIJbctWUQQYmvZ1m7dT1-yPNfxCHfBaTJgMWjKwCo",
-    "description": "From left",
+    "description": "Vicini: Bom bom bom bom     Uomo: 'Tesoro, abbassa il volume'      Donna: 'Ma non sono io, cara! Ci risiamo, sono i vicini!     ...se ti trovassi in questa situazione quale di queste tre azioni del nostro protagonista sceglieresti?",
     "choices": [
       {
         "code": "1.1",
-        "text_button": "go left"
+        "text_button": "Prendo tranquillanti"
       },
       {
         "code": "1.2",
@@ -37,9 +37,35 @@
   },
   {
     "code": "1.1",
-    "title": "At left position",
+    "title": "Prendo un flacone di tranquillanti",
     "image_path": "https://i.picsum.photos/id/158/200/300.jpg?blur=5&hmac=zBG__2c59b4wLtKodZRxUbgYQJXGHZx61S7ZES46nCw",
-    "description": "From left (2º step)",
+    "description": "Uomo: 'Prendo un flacone di tranquillanti... ehm... ne vuoi un po'?'	...ora scegli una delle due opzioni qui sotto:",
+    "choices": [
+      {
+        "code": "1.1.1",
+        "text_button": "Useró dei cuscini"
+      },
+      {
+        "code": "1.1.2",
+        "text_button": "Chiameró la polizia"
+      }
+    ]
+  },
+  {
+    "code": "1.1.1",
+    "title": "At right position",
+    "description": "From right (2º step)",
+    "choices": [
+      {
+        "code": "1.1.1.1",
+        "text_button": "Useró dei cuscini (valutazione)"
+      }
+    ]
+  },
+  {
+    "code": "1.1.1.1",
+    "title": "Useró dei cuscini (valutazione)",
+    "description": "Soluzione: Alt!  Peccato, ci vorrebbe un po' più di coraggio per risolvere questo problema. Presentasi e iniziare un dialogo con persone sconosiute può rivelarsi positivo nei rapporti di vicinato. ",
     "choices": []
   },
   {

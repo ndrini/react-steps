@@ -3,19 +3,19 @@
     "code": "0",
     "title": "Start",
     "image_path": "https://i.picsum.photos/id/870/200/300.jpg?blur=5&hmac=kPFMui3gWYFu1G2PCNwqDRg7u1qfFGGZd0KM7fIzkb4",
-    "description": "It's your choice, baby",
+    "description": "Mettiti alla prova trovando le soluzioni in uno dei 10 casi che seguono.",
     "choices": [
       {
-        "code": "1",
-        "text_button": "go left"
+        "code": "C1",
+        "text_button": "Mi sembra che i miei vicini siano troppo allegri"
       },
       {
-        "code": "2",
-        "text_button": "keep the center"
+        "code": "C2",
+        "text_button": "Mi sembra che i miei nuovi colleghi pretendono troppo."
       },
       {
-        "code": "3",
-        "text_button": "go right"
+        "code": "C3",
+        "text_button": "mi sembra che si che si fischia la mia compagna."
       }
     ]
   },
